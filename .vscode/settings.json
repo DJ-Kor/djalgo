@@ -1,16 +1,14 @@
 {
-  "workbench.editor.titleScrollbarSizing": "large",
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "files.associations": { "*.jsonc": "json" },
   "editor.renderWhitespace": "all",
-  "editor.rulers": [0, 80, 120, 160, 161, 162, 163, 164, 165],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [0, 80, 120],
+  "files.associations": { "*.jsonc": "json" },
   // .py
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
+    // 코드 제안 완전히 끄기 - 알고리즘 공부
     "editor.quickSuggestions": {
       "other": false,
       "comments": false,
