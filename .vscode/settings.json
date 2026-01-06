@@ -1,0 +1,32 @@
+{
+  "workbench.editor.titleScrollbarSizing": "large",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "files.associations": { "*.jsonc": "json" },
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [0, 80, 120, 160, 161, 162, 163, 164, 165],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // .py
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false, // 점(.) 입력 시 자동 제안 막기
+    "editor.inlineSuggest.enabled": false // 인라인 자동 제안 끄기
+  },
+  "autopep8.args": ["--max-line-length=120", "--ignore=W292,E266,E402"],
+  // .json
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
