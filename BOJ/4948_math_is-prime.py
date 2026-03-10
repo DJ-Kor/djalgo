@@ -1,6 +1,8 @@
 import sys
 readl = sys.stdin.readline
 
+# 4948. 베르트랑 공준
+# 수학, 정수론, 소수 판정, 에라토스테네스의 체
 primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
 
 

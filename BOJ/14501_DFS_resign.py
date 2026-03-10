@@ -1,6 +1,9 @@
 import sys
 readl = sys.stdin.readline
 
+# 14501. 퇴사
+# 다이나믹 프로그래밍, 브루트포스 알고리즘, DFS
+
 N = int(readl())
 T = []
 P = []
